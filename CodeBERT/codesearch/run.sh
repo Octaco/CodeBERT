@@ -4,6 +4,6 @@
 #SBATCH --output=testout.log
 #SBATCH --error=testerr.log
 
-source activate ../../../mixenv/bin/activate
+# source activate ../../../mixenv/bin/activate
 
-python runner.py "$@"
+python run_classifier.py
